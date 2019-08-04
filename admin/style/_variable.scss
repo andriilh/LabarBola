@@ -1,0 +1,39 @@
+$cl-success: #28a745;
+$cl-primary: #007bff;
+$cl-white: #fff;
+$cl-warning: #ffc107;
+$cl-danger: #dc3545;
+$cl-dark: #343a40;
+$cl-secondary: #6c757d;
+$cl-info: #17a2b8;
+$cl-cyan: #2fb7c8;
+$cl-0: transparent;
+$cl-1: #84f0bfe1;
+$cl-2: #209460;
+$cl-3: #1a794e;
+$cl-putih: #fff;
+$cl-green: #34a853;
+
+
+$bbottom: 4px solid #ffffffe7;
+
+$cl-primary-light: #54a2f5;
+
+$shadow-black: 2px 1px 3px rgba(0, 0, 0, .5);
+$shadow-pink: 2px 1px 3px rgba(255, 1, 221, 0.5);
+
+.text-grey {
+   color: grey;
+}
+
+.text-white {
+   color: white;
+}
+
+.bck-succes {
+   background-color: $cl-success;
+}
+
+.bck-danger {
+   background-color: $cl-danger;
+}

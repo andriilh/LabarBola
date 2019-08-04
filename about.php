@@ -1,38 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$title = "About";
+require_once 'control/Operation.php';
+$op = new Operation();
+$url = $op->baseUrl();
+$laliga = 'klasemen-laliga.php';
+$epl = 'klasemen-epl.php';
+require_once 'includes/kepala.php';
+?>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Labar Bola</title>
-
-   <!-- links -->
-   <link rel="stylesheet" href="style/style.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
 
 <body>
-   <!-- navbar -->
-   <nav>
-      <div class="container">
-         <span class="logo"><a href="#">AIL</a></span>
-         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#">Tables</a>
-               <ul>
-                  <li><a href="klasemen-laliga.html">Liga Spanyol</a></li>
-                  <li><a href="klasemen-laliga.html">Liga Inggris</a></li>
-               </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="login.html">login</a></li>
-         </ul>
-      </div>
-   </nav>
-   <!-- navbar -->
+   <?php
+   require_once 'includes/nav.php';
+   ?>
    <div class="bawah-nav"></div>
    <div class="container">
       <div class="content cf">
@@ -79,10 +59,8 @@
                </tr>
             </table><br>
             <h2 class="font-sanspro">Sosial Media</h2>
-            <span class="sosmed"><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/sob.andri"
-                  target="_balnk">Andri Ilham</a></span><br><br>
-            <span class="sosmed"><i class="fab fa-instagram""></i> <a href=" https://www.instagram.com/andriilh"
-                  target="_balnk">andriilh</a></span>
+            <span class="sosmed"><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/sob.andri" target="_balnk">Andri Ilham</a></span><br><br>
+            <span class="sosmed"><i class="fab fa-instagram""></i> <a href=" https://www.instagram.com/andriilh" target="_balnk">andriilh</a></span>
             <br><br>
          </div>
       </div>

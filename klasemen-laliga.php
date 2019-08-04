@@ -1,44 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Klasemen Laliga</title>
-
-   <!-- links -->
-   <link rel="stylesheet" href="style/style.css">
-</head>
+<?php
+$title = "Klasemen La Liga";
+require_once 'control/Operation.php';
+$op = new Operation();
+$url = $op->baseUrl();
+$laliga = 'klasemen-laliga.php';
+$epl = 'klasemen-epl.php';
+require_once 'includes/kepala.php';
+?>
 
 <body>
-   <!-- navbar -->
-   <nav>
-      <div class="container">
-         <span class="logo"><a href="#">AIL</a></span>
-         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li class="active"><a href="#">Tables</a>
-               <ul>
-                  <li><a href="klasemen-laliga.html">Liga Spanyol</a></li>
-                  <li><a href="klasemen-epl.html">Liga Inggris</a></li>
-               </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="login.html">login</a></li>
-         </ul>
-      </div>
-   </nav>
-   <!-- navbar -->
+   <?php
+   require_once 'includes/nav.php';
+   ?>
    <div class="bawah-nav"></div>
    <div class="container">
       <div class="content cf">
          <div class="main">
             <h1 class="judul-utama">Klasemen Laliga</h1>
-            <p class="ket-berita">Update Pada (28/04/2019) 12:06 WIB via <a
-                  href="https://www.google.com/search?client=firefox-b-d&q=la+liga+tables#sie=lg;/g/11f57gslw8;2;/m/09gqx;st;fp;1;;"
-                  class="text-hitam font-bold" target="_blnk">Google.com</a></p>
+            <p class="ket-berita">Update Pada (28/04/2019) 12:06 WIB via <a href="https://www.google.com/search?client=firefox-b-d&q=la+liga+tables#sie=lg;/g/11f57gslw8;2;/m/09gqx;st;fp;1;;" class="text-hitam font-bold" target="_blnk">Google.com</a></p>
 
             <!-- Tabel -->
             <table class="klasemen">
@@ -338,13 +317,11 @@
             <p>Manchester City kembali ke puncak klasemen Premier League kasta teratas Liga Inggris seusai memenangi
                laga derbi versus Manchester United dengan skor 3-1 pada pertandingan pekan ke-12 di Stadion Etihad,
                Minggu (11/11/2018). <span>
-                  <a href="https://bola.kompas.com/read/2018/11/12/04151368/hasil-man-city-vs-man-united-menangi-derbi-city-kembali-ke-puncak"
-                     target="_balnk">Selengkapnya</a>
+                  <a href="https://bola.kompas.com/read/2018/11/12/04151368/hasil-man-city-vs-man-united-menangi-derbi-city-kembali-ke-puncak" target="_balnk">Selengkapnya</a>
                </span></p>
             <div class="gambar-side gambar-3-side"></div>
             <p>Hasil Akhir dan Kalsemen La Liga Jornada 25. <span>
-                  <a href="https://bola.kompas.com/read/2018/11/12/04151368/hasil-man-city-vs-man-united-menangi-derbi-city-kembali-ke-puncak"
-                     target="_balnk">Selengkapnya</a>
+                  <a href="https://bola.kompas.com/read/2018/11/12/04151368/hasil-man-city-vs-man-united-menangi-derbi-city-kembali-ke-puncak" target="_balnk">Selengkapnya</a>
                </span></p>
          </div>
       </div>

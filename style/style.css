@@ -30,7 +30,7 @@ nav {
   height: 50px;
   z-index: 99999;
   -webkit-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 nav .logo {
@@ -101,7 +101,7 @@ nav ul li ul {
   width: 150px;
   padding-left: 0;
   -webkit-box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 nav ul li ul li {
@@ -187,10 +187,10 @@ nav ul li ul li a {
   top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 20px;
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 #body form a {
@@ -237,7 +237,7 @@ nav ul li ul li a {
   top: 17%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   text-align: center;
 }
 
@@ -259,7 +259,7 @@ nav ul li ul li a {
 
 #body form .form input::-webkit-input-placeholder {
   -webkit-box-shadow: 1px 1px 3px #84fab0;
-          box-shadow: 1px 1px 3px #84fab0;
+  box-shadow: 1px 1px 3px #84fab0;
 }
 
 #body form .form input:-ms-input-placeholder {
@@ -272,7 +272,7 @@ nav ul li ul li a {
 
 #body form .form input::placeholder {
   -webkit-box-shadow: 1px 1px 3px #84fab0;
-          box-shadow: 1px 1px 3px #84fab0;
+  box-shadow: 1px 1px 3px #84fab0;
 }
 
 #body form .form .btn {
@@ -295,7 +295,7 @@ nav ul li ul li a {
 #body form .form .btn:hover {
   background-position: right center;
   -webkit-box-shadow: 3px 4px 15px #0693cd;
-          box-shadow: 3px 4px 15px #0693cd;
+  box-shadow: 3px 4px 15px #0693cd;
 }
 
 #body form .form .tooo {
@@ -343,7 +343,7 @@ nav ul li ul li a {
   float: left;
   height: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .ket-berita {
@@ -470,7 +470,7 @@ nav ul li ul li a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   position: relative;
   border-top: 3px solid #4AC29A;
@@ -501,7 +501,7 @@ nav ul li ul li a {
   float: left;
   height: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .ket-berita {
@@ -628,7 +628,7 @@ nav ul li ul li a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   position: relative;
   border-top: 3px solid #4AC29A;
@@ -717,7 +717,7 @@ nav ul li ul li a {
   border-collapse: collapse;
   background-color: #45c48b59;
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .klasemen tr:nth-child(1) {
@@ -828,7 +828,7 @@ nav ul li ul li a {
   position: absolute;
   float: left;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .kotak-ket-tabel .ket-tabel {
@@ -933,14 +933,21 @@ nav ul li ul li a {
   border-radius: 50%;
   border: 6px solid white;
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }
 
 .profile img:hover {
   -webkit-box-shadow: 3px 5px 30px #007bff;
-          box-shadow: 3px 5px 30px #007bff;
+  box-shadow: 3px 5px 30px #007bff;
+}
+
+.image-utama {
+  height: 350px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
 }
 
 .profile h3 {
@@ -1031,7 +1038,7 @@ nav ul li ul li a {
   width: 750px;
   height: 450px;
   -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
   padding-bottom: 20px;
   border-radius: 15px;
   text-align: center;
@@ -1044,7 +1051,7 @@ nav ul li ul li a {
   margin: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 100%;
 }
 
@@ -1088,7 +1095,7 @@ nav ul li ul li a {
   background-color: #0693cd;
   color: white;
   -webkit-box-shadow: 3px 4px 15px #0693cd;
-          box-shadow: 3px 4px 15px #0693cd;
+  box-shadow: 3px 4px 15px #0693cd;
 }
 
 .contact .kosong {
@@ -1124,7 +1131,7 @@ nav ul li ul li a {
 Author :
 
 
-Andri Ilham   17 111 322    TIF RP 17 CID C    andr3yfcb@gmail.com
+Andri Ilham   17 111 322    TIF RP 17 CID C    andriilh@outlook.com
 
 original copyright
 */
